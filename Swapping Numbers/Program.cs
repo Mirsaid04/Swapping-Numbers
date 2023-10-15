@@ -7,12 +7,12 @@
             Console.WriteLine("Hello , Welcome to my application");
 
             Console.Write("Please enter the first number: ");
-            int firstNumber = int.Parse(Console.ReadLine());
+            int firstNumber = int.Parse(Console.ReadLine()!);
 
             Console.Write("Please enter the second number: ");
-            int secondNumber = int.Parse(Console.ReadLine());
+            int secondNumber = int.Parse(Console.ReadLine()!);
 
-            int temp;
+            int temp = 0;
 
             temp = secondNumber;
             secondNumber = firstNumber;
